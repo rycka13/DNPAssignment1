@@ -2,8 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Models {
 public class Person {
-    //[Range(1,int.MaxValue, ErrorMessage = "Please enter a valid ID")]
-    
+
     public int Id { get; set; }
     [Required]
     public string FirstName { get; set; }

@@ -34,7 +34,6 @@ namespace DNP_assignment_1
         {
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            //services.AddSingleton<WeatherForecastService>();
             services.AddSingleton<IAdultActions, AdultsManager>();
             services.AddSingleton<FileContext>();
             services.AddScoped<IUserService, InMemoryUserService>();

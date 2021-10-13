@@ -10,7 +10,6 @@ namespace DNP_assignment_1.Data
         IList<Adult> getAllAdults();
         void addAdult(Adult adult);
         void removeAdult(Adult adult);
-        //void editAdult(Adult adultToRemove,Adult adultToReplace);
         void editAdult(Adult adult);
         Adult GetAdultById(int id);
         

@@ -58,7 +58,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        //adultToEdit = _adultActions.GetAdultById(Id);
+        
         adultToEdit = _adultActions.getAllAdults().First(a => a.Id == Id);
     }
 

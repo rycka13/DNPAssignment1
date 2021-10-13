@@ -21,14 +21,11 @@ namespace DNP_assignment_1.Data
         }
         public IList<Adult> getAllAdults()
         {
-            /*string json = File.ReadAllText("adults.json");
-            return JsonSerializer.Deserialize<List<Adult>>(json);*/
             return Sort(_fileContext.Adults);
         }
 
         public void addAdult(Adult adult)
         {
-            //adult.Id = _adults.Max(a => a.Id) + 1;
             int max = _adults.Max(a => a.Id);
             adult.Id = (++max);
             _fileContext.Adults.Add(adult);
@@ -42,27 +39,11 @@ namespace DNP_assignment_1.Data
 
         }
 
-        /*public void editAdult(Adult adultToRemove, Adult adultToReplace)
-        {
-            //CAN BE FUCKED
-            _fileContext.Adults.Remove(adultToRemove);
-            _fileContext.Adults.Insert(_fileContext.Adults.IndexOf(adultToRemove),adultToReplace);
-            _fileContext.SaveChanges();
-        }*/
+        
         public void editAdult(Adult adult)
         {
             Adult toUpdate = adult;
-            /*Adult toUpdate = _adults.First(a => a.Id == adult.Id);
-            toUpdate = _adults.First(a => a.Id == adult.Id);
-            toUpdate.JobTitle = adult.JobTitle;
-            toUpdate.FirstName = adult.FirstName;
-            toUpdate.LastName = adult.LastName;
-            toUpdate.HairColor = adult.HairColor;
-            toUpdate.EyeColor = adult.EyeColor;
-            toUpdate.Age = adult.Age;
-            toUpdate.Weight = adult.Weight;
-            toUpdate.Height = adult.Height;
-            toUpdate.Sex = adult.Sex;*/
+            
             _fileContext.Adults.Remove(_adults.First(a => a.Id == adult.Id));
             _fileContext.Adults.Add(toUpdate);
             _fileContext.SaveChanges();

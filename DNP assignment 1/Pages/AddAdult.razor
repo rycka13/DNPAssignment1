@@ -6,7 +6,6 @@
 @inject NavigationManager NavigationManager
 @inject AuthenticationStateProvider _authenticationStateProvider
 
-@*@attribute [Authorize(Policy = "SecurityLevel2")]*@
 
 <AuthorizeView Policy="SecurityLevel3">
 <ChildContent Context="newName">
@@ -30,8 +29,7 @@
             <InputNumber @bind-Value="newAdult.Age"/></div>
         <div class="form-group">Weight (in kg): <br/>
             <InputNumber @bind-Value="newAdult.Weight"/></div>
-        @*<div class="form-group">Height (in cm): <br/>
-        <BSBasicInput InputType="InputType.Number" @bind-Value="newAdult.Height" step="0.01" /></div>*@
+        
         <div class="form-group">Height (in cm): <br/>
             <InputNumber @bind-Value="newAdult.Height"/></div>
         <div class="form-group">Sex: <br/>
@@ -59,7 +57,7 @@
 
         private void AddNewAdult()
         {
-        //newAdult.Id = adultActions.getAllAdults().Max(a => a.Id) + 1;
+        
             adultActions.addAdult(newAdult);
             NavigationManager.NavigateTo("/AdultList");
         }
