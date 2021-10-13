@@ -13,91 +13,91 @@ namespace DNP_assignment_1.Pages
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 1 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 2 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 3 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 4 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 5 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 6 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 7 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 8 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 9 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using DNP_assignment_1;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\_Imports.razor"
+#line 10 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\_Imports.razor"
 using DNP_assignment_1.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\Pages\AddAdult.razor"
+#line 2 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\Pages\AddAdult.razor"
 using Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\Pages\AddAdult.razor"
+#line 3 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\Pages\AddAdult.razor"
 using DNP_assignment_1.Data;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\Pages\AddAdult.razor"
+#line 4 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\Pages\AddAdult.razor"
 using DNP_assignment_1.Authentication;
 
 #line default
@@ -112,7 +112,7 @@ using DNP_assignment_1.Authentication;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 52 "C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\Pages\AddAdult.razor"
+#line 50 "C:\Users\rytis\Desktop\DNP git\DNP assignment 1\Pages\AddAdult.razor"
            
 
         private Adult newAdult = new Adult()
@@ -123,7 +123,7 @@ using DNP_assignment_1.Authentication;
 
         private void AddNewAdult()
         {
-        //newAdult.Id = adultActions.getAllAdults().Max(a => a.Id) + 1;
+        
             adultActions.addAdult(newAdult);
             NavigationManager.NavigateTo("/AdultList");
         }

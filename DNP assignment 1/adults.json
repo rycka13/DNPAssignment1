@@ -1,6 +1,21 @@
 [
   {
     "JobTitle": {
+      "JobTitle": "Skin Care Specialist",
+      "Salary": 20545
+    },
+    "Id": 3,
+    "FirstName": "Cloe",
+    "LastName": "Mcclure",
+    "HairColor": "Black",
+    "EyeColor": "Brown",
+    "Age": 59,
+    "Weight": 35.4,
+    "Height": 168,
+    "Sex": "F"
+  },
+  {
+    "JobTitle": {
       "JobTitle": "Vice Principal",
       "Salary": 72901
     },
@@ -170,28 +185,13 @@
       "Salary": 1
     },
     "Id": 15,
-    "FirstName": "Rytis",
-    "LastName": "Ziaukas",
+    "FirstName": "Rytiss",
+    "LastName": "Ziaukas1",
     "HairColor": "Blond",
     "EyeColor": "Blue",
-    "Age": 20,
+    "Age": 22,
     "Weight": 75,
     "Height": 195,
     "Sex": "M"
-  },
-  {
-    "JobTitle": {
-      "JobTitle": "Skin Care Specialist",
-      "Salary": 20545
-    },
-    "Id": 3,
-    "FirstName": "Chaya",
-    "LastName": "Mcclure",
-    "HairColor": "Black",
-    "EyeColor": "Brown",
-    "Age": 59,
-    "Weight": 32.4,
-    "Height": 167,
-    "Sex": "F"
   }
 ]
