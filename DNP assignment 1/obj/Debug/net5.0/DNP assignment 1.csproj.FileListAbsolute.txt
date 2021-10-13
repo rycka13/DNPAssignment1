@@ -61,3 +61,66 @@ C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\obj\Debu
 C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\obj\Debug\net5.0\Razor\Pages\AdultEdit.razor.g.cs
 C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\Pages\Login.razor.g.cs
 C:\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\obj\Debug\net5.0\Razor\Pages\Login.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\adults.json
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\appsettings.json
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\DNP assignment 1.StaticWebAssets.xml
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\DNP assignment 1.exe
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\DNP assignment 1.deps.json
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\DNP assignment 1.runtimeconfig.json
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\DNP assignment 1.runtimeconfig.dev.json
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\DNP assignment 1.dll
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\ref\DNP assignment 1.dll
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\DNP assignment 1.pdb
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\DNP assignment 1.Views.dll
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\bin\Debug\net5.0\DNP assignment 1.Views.pdb
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.csproj.AssemblyReference.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.AssemblyInfoInputs.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.AssemblyInfo.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.csproj.CoreCompileInputs.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.RazorComponent.input.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\Pages\AddAdult.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\Pages\AdultEdit.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\Pages\AdultList.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\Pages\Login.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.RazorComponent.output.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\RazorDeclaration\DNP assignment 1.dll
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.TagHelpers.input.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.TagHelpers.output.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.RazorCoreGenerate.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\App.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Pages\AddAdult.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Pages\AdultEdit.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Pages\AdultList.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Pages\Login.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.RazorAssemblyInfo.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.RazorAssemblyInfo.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\staticwebassets\DNP assignment 1.StaticWebAssets.Manifest.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\staticwebassets\DNP assignment 1.StaticWebAssets.xml
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\scopedcss\bundle\DNP assignment 1.styles.css
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\scopedcss\projectbundle\DNP assignment 1.bundle.scp.css
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.RazorTargetAssemblyInfo.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.RazorTargetAssemblyInfo.cs
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.Views.pdb
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.dll
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\ref\DNP assignment 1.dll
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.pdb
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.genruntimeconfig.cache
+C:\Users\rytis\Desktop\DNP git\DNP assignment 1\obj\Debug\net5.0\DNP assignment 1.csproj.CopyComplete

@@ -14,7 +14,7 @@ namespace FileData
 
         //private readonly string familiesFile = "families.json";
         //private readonly string adultsFile = "adults.json";
-        private readonly string adultsFile = @"C:\\Users\rytis\Desktop\DNP assignemnt\DNP assignment 1\DNP assignment 1\adults.json";
+        private readonly string adultsFile = @"adults.json";
         
 
         public FileContext()
