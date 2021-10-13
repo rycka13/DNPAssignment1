@@ -1,0 +1,69 @@
+﻿@page "/AddAdult"
+@using Models
+@using DNP_assignment_1.Data
+@using DNP_assignment_1.Authentication
+@inject IAdultActions adultActions
+@inject NavigationManager NavigationManager
+@inject AuthenticationStateProvider _authenticationStateProvider
+
+@*@attribute [Authorize(Policy = "SecurityLevel2")]*@
+
+<AuthorizeView Policy="SecurityLevel3">
+<ChildContent Context="newName">
+    <h3>Add Adult</h3>
+
+    
+    <EditForm Model="@newAdult" OnValidSubmit="@AddNewAdult">
+        <DataAnnotationsValidator/>
+        <ValidationSummary/>
+        @*<div class="form-group">User ID: (Recommended: @(adultActions.getAllAdults().Max(a => a.Id)+1))<br/>
+        <InputNumber @bind-Value="newAdult.Id"/></div>*@
+        <div class="form-group">Name: <br/>
+            <InputTextArea rows="1" @bind-Value="newAdult.FirstName"/></div>
+        <div class="form-group">Last name: <br/>
+            <InputTextArea rows="1" @bind-Value="newAdult.LastName"/></div>
+        <div class="form-group">Hair color: <br/>
+            <InputTextArea rows="1" @bind-Value="newAdult.HairColor"/></div>
+        <div class="form-group">Eye color: <br/>
+            <InputTextArea rows="1" @bind-Value="newAdult.EyeColor"/></div>
+        <div class="form-group">Age: <br/>
+            <InputNumber @bind-Value="newAdult.Age"/></div>
+        <div class="form-group">Weight (in kg): <br/>
+            <InputNumber @bind-Value="newAdult.Weight"/></div>
+        @*<div class="form-group">Height (in cm): <br/>
+        <BSBasicInput InputType="InputType.Number" @bind-Value="newAdult.Height" step="0.01" /></div>*@
+        <div class="form-group">Height (in cm): <br/>
+            <InputNumber @bind-Value="newAdult.Height"/></div>
+        <div class="form-group">Sex: <br/>
+            <InputSelect @bind-Value="newAdult.Sex">
+                <option> </option>
+                <option>M</option>
+                <option>F</option>
+            </InputSelect></div>
+        <div class="form-group">Job title: <br/>
+            <InputTextArea rows="1" @bind-Value="newAdult.JobTitle.JobTitle"/></div>
+        <div class="form-group">Salary: <br/>
+            <InputNumber @bind-Value="newAdult.JobTitle.Salary"/></div>
+
+        <p class="actions"><button class="btn btn-outline-dark" type="submit">Add</button></p>
+
+    </EditForm>
+</ChildContent>
+    @code {
+
+        private Adult newAdult = new Adult()
+        {
+            JobTitle = new Job()
+        };
+
+
+        private void AddNewAdult()
+        {
+        //newAdult.Id = adultActions.getAllAdults().Max(a => a.Id) + 1;
+            adultActions.addAdult(newAdult);
+            NavigationManager.NavigateTo("/AdultList");
+        }
+
+    }
+
+</AuthorizeView>

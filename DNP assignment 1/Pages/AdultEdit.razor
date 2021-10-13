@@ -1,0 +1,70 @@
+﻿@page "/AdultEdit/{Id:int}"
+@using Models
+@using DNP_assignment_1.Data
+@inject IAdultActions _adultActions;
+@inject NavigationManager _navigationManager;
+
+<h3>Editing <span style="color: #1b6ec2"> @(_adultActions.getAllAdults().First(a => a.Id == Id).FirstName) @(_adultActions.getAllAdults().First(a => a.Id == Id).LastName)</span> ID:<span style="color: #1b6ec2"> @Id</span></h3>
+
+
+@if (adultToEdit == null)
+{
+    <em>Adult not found</em>
+}
+else
+{
+    <EditForm Model="@adultToEdit" OnValidSubmit="@Save">
+        <DataAnnotationsValidator/>
+        <ValidationSummary/>
+        @*<div class="form-group">User ID:<br/>
+            <InputNumber @bind-Value="adultToEdit.Id"/></div>  CREATES A PROBLEM WITH EDITING (CANT FIND THE ADULT TO EDIT)
+*@
+        <div class="form-group">Name: <br/>
+            <InputTextArea rows="1" @bind-Value="adultToEdit.FirstName"/></div>
+        <div class="form-group">Last name: <br/>
+            <InputTextArea rows="1" @bind-Value="adultToEdit.LastName"/></div>
+        <div class="form-group">Hair color: <br/>
+            <InputTextArea rows="1" @bind-Value="adultToEdit.HairColor"/></div>
+        <div class="form-group">Eye color: <br/>
+            <InputTextArea rows="1" @bind-Value="adultToEdit.EyeColor"/></div>
+        <div class="form-group">Age: <br/>
+            <InputNumber @bind-Value="adultToEdit.Age"/></div>
+        <div class="form-group">Weight (in kg): <br/>
+            <InputNumber @bind-Value="adultToEdit.Weight"/></div>
+        <div class="form-group">Height (in cm): <br/>
+            <InputNumber @bind-Value="adultToEdit.Height"/></div>
+        <div class="form-group">Sex: <br/>
+            <InputSelect @bind-Value="adultToEdit.Sex">
+                <option>M</option>
+                <option>F</option>
+            </InputSelect></div>
+        <div class="form-group">Job title: <br/>
+            <InputTextArea rows="1" @bind-Value="adultToEdit.JobTitle.JobTitle"/></div>
+        <div class="form-group">Salary: <br/>
+            <InputNumber @bind-Value="adultToEdit.JobTitle.Salary"/></div>
+
+        <p class="actions"><button class="btn btn-outline-dark" type="submit">Save</button></p>
+
+    </EditForm>
+}
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private Adult adultToEdit = new Adult()
+    {
+        JobTitle = new Job()
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        //adultToEdit = _adultActions.GetAdultById(Id);
+        adultToEdit = _adultActions.getAllAdults().First(a => a.Id == Id);
+    }
+
+    private void Save()
+    {
+        _adultActions.editAdult(adultToEdit);
+        _navigationManager.NavigateTo("/AdultList");
+    }
+}
